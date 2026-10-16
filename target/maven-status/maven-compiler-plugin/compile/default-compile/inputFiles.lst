@@ -1,0 +1,14 @@
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\BlueprintsApplication.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\config\OpenApiConfig.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\controllers\BlueprintsAPIController.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\filters\BlueprintsFilter.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\filters\IdentityFilter.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\filters\RedundancyFilter.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\filters\UndersamplingFilter.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\model\Blueprint.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\model\Point.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\persistence\BlueprintNotFoundException.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\persistence\BlueprintPersistence.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\persistence\BlueprintPersistenceException.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\persistence\InMemoryBlueprintPersistence.java
+C:\Users\USUARIO\ParcialPractico-2026-Corte2_JuanHernandez\src\main\java\edu\eci\arsw\blueprints\services\BlueprintsServices.java

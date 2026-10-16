@@ -15,20 +15,20 @@ import java.util.Map;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/blueprints")
+@RequestMapping("/api/v1/blueprints")
 public class BlueprintsAPIController {
 
     private final BlueprintsServices services;
 
     public BlueprintsAPIController(BlueprintsServices services) { this.services = services; }
 
-    // GET /blueprints
+    // GET /api/v1/blueprints
     @GetMapping
     public ResponseEntity<Set<Blueprint>> getAll() {
         return ResponseEntity.ok(services.getAllBlueprints());
     }
 
-    // GET /blueprints/{author}
+    // GET /api/v1/blueprints/{author}
     @GetMapping("/{author}")
     public ResponseEntity<?> byAuthor(@PathVariable String author) {
         try {
@@ -38,7 +38,7 @@ public class BlueprintsAPIController {
         }
     }
 
-    // GET /blueprints/{author}/{bpname}
+    // GET /api/v1/blueprints/{author}/{bpname}
     @GetMapping("/{author}/{bpname}")
     public ResponseEntity<?> byAuthorAndName(@PathVariable String author, @PathVariable String bpname) {
         try {
@@ -48,7 +48,7 @@ public class BlueprintsAPIController {
         }
     }
 
-    // POST /blueprints
+    // POST /api/v1/blueprints
     @PostMapping
     public ResponseEntity<?> add(@Valid @RequestBody NewBlueprintRequest req) {
         try {
@@ -60,7 +60,7 @@ public class BlueprintsAPIController {
         }
     }
 
-    // PUT /blueprints/{author}/{bpname}/points
+    // PUT /api/v1/blueprints/{author}/{bpname}/points
     @PutMapping("/{author}/{bpname}/points")
     public ResponseEntity<?> addPoint(@PathVariable String author, @PathVariable String bpname,
                                       @RequestBody Point p) {
